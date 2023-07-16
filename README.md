@@ -116,6 +116,8 @@ We're constantly working to provide a more stable version. In the meantime, see 
 **model: gpt-4 does not exist**
 This relates to not having permission to use gpt-4 yet. Based on OpenAI, it will be [widely available for all by end of July](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4).
 
+In the meanwhile you can set the environment variable: ```"SMART_LLM_MODE"``` to "gpt-3.5-turbo-16k" or any other model available for you(the results will be of lower quality but it'll get you started)
+
 **cannot load library 'gobject-2.0-0'**
 
 The issue relates to the library WeasyPrint (which is used to generate PDFs from the research report). Please follow this guide to resolve it: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
